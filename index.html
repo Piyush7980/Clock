@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="c.png">
+    <title>Analog-Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- embedding audio source to the html -->
+    <audio autoplay="autoplay" loop="loop">
+    <source src="Ticking.mp3" type="audio/mpeg">
+</audio>
+    <div class="clock-container clock-ui">
+        <div id="hour" class="clock-hands"></div>
+        <div id="minute" class="clock-hands"></div>
+        <div id="second" class="clock-hands"></div>
+    </div>
+    <div class="digital">
+        <span id="hr">00</span>
+        <span id="min">00</span>
+        <span id="sec">00</span>
+    </div>
+
+</body>
+
+</html>
